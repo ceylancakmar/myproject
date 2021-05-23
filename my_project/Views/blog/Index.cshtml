@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>MVC</h1>
+
+<img src="~/Content/img/mvc1.PNG" alt=" resim" class="img-left" />
+
+<p>
+    MVC (Model View Controller) Framework dinamik web siteleri
+    web uygulamaları ve web servisleri yazmak amacıyla geliştirilmiş
+    olan bir web uygulamaları arayüzüdür. Microsoft firması tarafından
+    2007 yılı itibari ile geliştirilmeye başlanan MVC yeni bir tasarım
+    kalıbı değildir. 80'li yıllardan beri farklı dil ve teknolojilerde kullanılmıştır.
+
+</p>
+<p>
+    MVC Framework ASP.NET'in eksikliklerini kapatmak amacıyla geliştirilmiş bir sistemdir.
+    MVC asıl gücünü uygulamaları Model View ve Controller olmak üzere üç farklı katmanda
+    gerçekleştirilmesinden alır. Bu sayede bir web uygulaması üç kısım halinde parçalara
+    bölünerek yürütülür.
+    Her bir katmanda yürütülen işlemler diğer katmanlardan bağımsız biçimde gerçekleştirilir.
+</p>
+
+<p>
+    
+    <h3> Model</h3>
+
+    MVC dünyasında model uygulama verisinin veya durumunun saklandığı yerdir,
+    genellikle veritabanı veya xml/json dosyası formatındadır.
+    Model, veri katmanını (database, xml, json dosyası, vb.) uygulamadan izole eder,
+    böylece diğer katmanlarda veri katmanının neresi olduğunun bilinmesine gerek kalmaz.
+    Model katmanı sıklıkla Entity Framework, Nhibernate, LLBLGen, vb. gibi araçlar
+    kullanılarak oluşturulur.
+</p>
+<p>
+   <h3> View</h3>
+
+    View, istemcinin gördüğü arayüzü içeren katmandır,
+    genellikle Model katmanındaki verinin kullanılması ile oluşturulur.
+    View katmanının Model ve Controller katmanlarından ayrılması ile arayüz
+    değişikliklerinin uygulamanın diğer katmanlarını değiştirmeye gerek kalmadan
+    yapılabilmesi sağlanmıştır.
+
+    View katmanında HTML5 ve CSS3 gibi son versiyon teknolojiler kullanmak mümkündür.
+    HTML5 ve CSS3 ile masaüstü ve mobil tarayıcılarda çalışabilen uygulamalar geliştirmek çok kolaylaşmıştır. Hatta Windows Store uygulamaları geliştirmek için HTML5 ve CSS3 teknolojilerinden yararlanılabilir.
+</p>
+<p>
+    <h3> Controller</h3>
+    Controller, istemciden gelen isteği işlemek, Model ve View katmanları
+    arasında köprü olmak gibi görevleri yerine getirir. Controller içerisinde bir
+    veya daha fazla Action olabilir, genellikle her Action bir web sayfası üretmek
+    için kullanılır.
+</p>

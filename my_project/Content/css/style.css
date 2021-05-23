@@ -1,0 +1,183 @@
+﻿@import url(normalize.css);
+
+body {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 14px;
+    background:black;
+    overflow-y: scroll;
+   
+}
+
+#container {
+    width:960px;
+    position: relative;
+    margin: 10px auto;
+    border: 1px solid black;
+    background: gainsboro;
+    padding:10px 50px 10px 50px;
+   
+}
+
+/***header***/
+header {
+    width: 960px;
+    height: 120px;
+    position: relative;
+    /*// background:goldenrod;*/
+}
+/*yazi*/
+#yazi {
+    font-family: Verdana;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    margin-top:30px;
+}
+
+/*logo*/
+#logo {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    float: left;
+    margin-left: 8px;
+    margin-bottom:18px;
+    background: url(/Content/img/ceylan.png) no-repeat center center;
+
+}
+/*social-media*/
+#social-media {
+    width: 180px;
+    height: 48px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*.social {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    float:right;
+    margin-left: 8px;
+}*/
+
+/**nav**/
+nav {
+    width: 960px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    position: relative;
+}
+
+.nav-item {
+    width: 191px;
+    height: 38px;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    border-left: 0;
+    /*background: #8b5f65;*/
+    background: #8b5f65;
+    color: black;
+    font-size: 16px;
+}
+
+/**content**/
+ #content {
+    width: 920px;
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+
+}
+
+
+  #content h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+ .img-left {
+    width: 260px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+
+/*footer*/
+  footer {
+    width: 960px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    border-top: 1px solid black;
+    color: black;
+    background: #8b5f65;
+}
+.social-media a {
+    background: #8b5f65;
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 4px;
+    font-size: 35px;
+    overflow: hidden;
+    position: relative;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 55px;
+    float:right;
+
+}
+    
+.social-media a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+.social-media .facebook:hover {
+    background-color: #0d1bb6;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.social-media .twitter:hover {
+    background-color: #00aced;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.social-media .github:hover {
+    background-color:purple;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.social-media .instagram:hover {
+    background-color: #af0b6c;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.social-media .linkedin:hover {
+    background-color: #204e98;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.anasayfa-foto img {
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+
+}

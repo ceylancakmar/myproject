@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>@ViewBag.Title</title>
+
+
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+   
+</head>
+<body>
+    <section id="container">
+        <header>
+
+          
+            <div id="yazi"><b style="font-size:20px;">Ceylan Çakmar</b><br>
+                Bilgisayar Mühendisi</div>
+            <div class="social-media">
+
+                <a href="https://www.facebook.com/" target="_blank">
+                    <div class="facebook" style="padding-top:5px">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+
+                <a href="https://twitter.com/" target="_blank">
+                    <div class="twitter" style="padding-top:5px">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com/" target="_blank">
+                    <div class="instagram"   style="padding-top:3px;">
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://linkedin.com/" target="_blank">
+                    <div class="linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <div class="github">
+                        <i class="fa fa-github"></i>
+                    </div>
+                </a>
+
+            </div>
+
+        </header>
+        <nav>
+            <a href="~/Views/Home/Index.cshtml">
+                <div class="nav-item">
+                    <span><b>Anasayfa</b></span>
+                </div>
+            </a>
+
+            <a href="~/Views/blog/Index.cshtml">
+                <div class="nav-item">
+                    <span><b>Blog</b></span>
+                </div>
+            </a>
+
+            <a href="~/Views/hakkımda/Index.cshtml">
+                <div class="nav-item">
+                    <span><b>Hakkımda</b></span>
+                </div>
+            </a>
+
+
+            <a href="~/Views/diger/Index.cshtml">
+                <div class="nav-item">
+                    <span><b>Diğer</b></span>
+                </div>
+            </a>
+
+            <a href="~/Views/iletisim/Index.cshtml">
+                <div class="nav-item" style="width:192px; border-right:0">
+                    <span><b>İletişim</b></span>
+                </div>
+            </a>
+
+        </nav>
+        <section id="content">
+            @RenderBody()
+        </section>
+        <footer>
+            <small> Ceylan Çakmar&copy;2021 | Tüm Hakları Saklıdır.</small>
+        </footer>
+    </section>
+   
+</body>
+</html>
